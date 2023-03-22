@@ -9,6 +9,7 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
   background-color: #5cdb95;
+  
 }
 
 .form-signin {
@@ -16,10 +17,6 @@ body {
   max-width: 330px;
   padding: 15px;
   margin: auto;
-}
-
-.form-signin .checkbox {
-  font-weight: 400;
 }
 
 .form-signin .form-floating:focus-within {
@@ -31,7 +28,11 @@ body {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
+.form-signin input[type="text"] {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
 
+}
 .form-signin input[type="password"] {
   margin-bottom: 10px;
   border-top-left-radius: 0;
@@ -39,6 +40,10 @@ body {
 }
 
 .btn-custom {
-  background-color: #FF0000; /* red */
+  background-color: #05386b; /* red */
   color: #FFFFFF; /* white text */
+}
+
+.hi{
+  color: white;
 }
